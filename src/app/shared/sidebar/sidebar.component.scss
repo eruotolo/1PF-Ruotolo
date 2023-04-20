@@ -1,0 +1,23 @@
+
+.example-container {
+  width: var(--sidebar-width);
+  height: calc(100vh - var(--toolbar-height));
+  background-color: #1f2023;
+  border-right: 1px solid #333333;
+  box-shadow:  rgba(0, 0, 0, 0.25) 2px 0px 60px -10px;
+  position: fixed;
+  color: #999999;
+}
+
+.example-sidenav {
+  width: var(--sidebar-width);
+}
+.mdc-icon-button{
+  border: 1px solid #fff;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.mat-mdc-icon-button.mat-mdc-button-base{
+  padding: 11px;
+}
+

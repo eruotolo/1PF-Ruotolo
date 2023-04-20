@@ -1,0 +1,27 @@
+table {
+  width: 100%;
+  background-color: #27282D;
+}
+
+.mat-mdc-form-field{
+  width: 100%;
+}
+.mat-mdc-text-field-wrapper{
+  background-color: #27282d !important;
+}
+.btn-agregar{
+  margin-bottom: 30px;
+}
+.btn-agregar > button{
+  background-color: #27282d;
+  color: #dddddd;
+  float: right;
+  padding: 20px 30px;
+  border-radius: 20px;
+}
+.btn-agregar > button:hover{
+  background-color: #dddddd;
+  color: #27282d;
+}
+
+

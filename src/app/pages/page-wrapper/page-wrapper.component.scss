@@ -1,0 +1,8 @@
+main{
+  margin-left: var(--sidebar-width);
+  background-color: #1f1f24;
+  height: calc(100vh - var(--toolbar-height));
+  padding: 20px;
+  margin-top: var(--toolbar-height);
+  overflow-y: scroll;
+}

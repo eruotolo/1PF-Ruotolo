@@ -1,0 +1,25 @@
+<!--<aside>-->
+<!--  <div class="d-flex flex-column menu-sidebar">-->
+<!--    -->
+<!--  </div>-->
+<!--</aside>-->
+
+<mat-drawer-container class="example-container" autosize>
+  <mat-drawer #drawer class="example-sidenav" mode="side">
+    <button (click)="drawer.toggle()" aria-label="Example icon-button with menu icon " class="example-icon"
+            mat-icon-button>
+      <mat-icon>menu</mat-icon>
+
+    </button>
+  </mat-drawer>
+
+  <div class="example-sidenav-content">
+    <button (click)="drawer.toggle()" aria-label="Example icon-button with menu icon " class="example-icon"
+            mat-icon-button>
+      <mat-icon>menu</mat-icon>
+    </button>
+  </div>
+
+</mat-drawer-container>
+
+
